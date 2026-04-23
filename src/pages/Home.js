@@ -6,7 +6,7 @@ import "../styles/home.css";
 
 const HomePage = () => {
   const [events, setEvents] = useState([]); // State to store events
-  const [user, setUser] = useState(null);
+ const [, setUser] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [expandedItems, setExpandedItems] = useState({}); // Track expanded items
   const [selectedFilter, setSelectedFilter] = useState("all"); // State for dropdown filter
